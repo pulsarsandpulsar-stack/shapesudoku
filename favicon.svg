@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- ShapeSudoku mark: a 2x2 board of shape tiles with one blush tile still to find -->
+  <defs>
+    <linearGradient id="t" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ebe6df"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#efede9"/>
+  <rect x="7" y="7" width="23" height="23" rx="5" fill="url(#t)"/>
+  <rect x="34" y="7" width="23" height="23" rx="5" fill="url(#t)"/>
+  <rect x="7" y="34" width="23" height="23" rx="5" fill="url(#t)"/>
+  <rect x="34" y="34" width="23" height="23" rx="5" fill="#efcfcb"/>
+  <circle cx="18.5" cy="18.5" r="7" fill="#8a6b9a"/>
+  <polygon points="45.5,11.5 52.5,25 38.5,25" fill="#6c8a63"/>
+  <rect x="12" y="39.5" width="13" height="13" rx="2" fill="#b86f7a"/>
+  <circle cx="45.5" cy="45.5" r="5.5" fill="#fbf9f6"/>
+</svg>
